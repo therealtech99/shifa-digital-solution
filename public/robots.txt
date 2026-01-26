@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shifadigital.com/sitemap.xml
+Sitemap: https://shifadigitalsolution.in/sitemap.xml

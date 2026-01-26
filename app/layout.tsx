@@ -7,7 +7,7 @@ import ParticleWrapper from '@/components/layout/ParticleWrapper'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://shifadigital.com'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://shifadigitalsolution.in'
 
 export const metadata: Metadata = {
   title: 'SHIFA DIGITAL SOLUTION - Premium Digital Agency',
