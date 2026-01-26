@@ -3,7 +3,7 @@
 import { useLoadScript, GoogleMap, Marker } from '@react-google-maps/api'
 import { useMemo } from 'react'
 
-const libraries = ['places'] as const
+const libraries: ('places')[] = ['places']
 
 const mapContainerStyle = {
   width: '100%',
