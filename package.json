@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "seed:admin": "node scripts/seed-admin-firebase.js",
-    "pre-deploy": "node scripts/pre-deploy.js"
+    "pre-deploy": "node scripts/pre-deploy.js",
+    "vercel:add-env": "node scripts/add-vercel-env.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
