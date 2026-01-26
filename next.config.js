@@ -10,10 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  env: {
-    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://shifadigitalsolution.in',
-    GOOGLE_MAPS_API_KEY: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-  },
+  // Removed env block - using process.env directly in code with fallbacks
 }
 
 module.exports = nextConfig
