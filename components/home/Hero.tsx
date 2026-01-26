@@ -82,6 +82,7 @@ export default function Hero() {
     animate()
 
     const handleResize = () => {
+      if (!canvas) return
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
     }
