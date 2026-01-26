@@ -107,7 +107,7 @@ export default function BlogPage() {
               </thead>
               <tbody>
                 {posts.map((post) => (
-                  <tr key={post._id} className="border-t border-white/10 hover:bg-white/5">
+                  <tr key={post.id} className="border-t border-white/10 hover:bg-white/5">
                     <td className="px-6 py-4">
                       <p className="text-white font-semibold">{post.title}</p>
                       <p className="text-white/60 text-sm">{post.excerpt}</p>
@@ -120,7 +120,7 @@ export default function BlogPage() {
                     <td className="px-6 py-4 text-white/60">{post.views}</td>
                     <td className="px-6 py-4">
                       <button
-                        onClick={() => togglePublish(post._id, post.published)}
+                        onClick={() => togglePublish(post.id, post.published)}
                         className={`px-3 py-1 rounded-lg text-sm flex items-center space-x-1 ${
                           post.published
                             ? 'bg-green-400/20 text-green-400'

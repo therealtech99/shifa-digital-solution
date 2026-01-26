@@ -130,7 +130,7 @@ export default function LeadsPage() {
                 </thead>
                 <tbody>
                   {leads.map((lead) => (
-                    <tr key={lead._id} className="border-t border-white/10 hover:bg-white/5">
+                    <tr key={lead.id} className="border-t border-white/10 hover:bg-white/5">
                       <td className="px-6 py-4">
                         <div>
                           <p className="text-white font-semibold">{lead.name}</p>
@@ -164,7 +164,7 @@ export default function LeadsPage() {
                       <td className="px-6 py-4">
                         <select
                           value={lead.status}
-                          onChange={(e) => updateLeadStatus(lead._id, e.target.value)}
+                          onChange={(e) => updateLeadStatus(lead.id, e.target.value)}
                           className="px-3 py-1 glass rounded-lg text-white/80 text-sm focus:outline-none focus:ring-2 focus:ring-neon-blue"
                         >
                           <option value="new">New</option>
