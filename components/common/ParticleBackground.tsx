@@ -45,7 +45,7 @@ export default function ParticleBackground() {
     }
 
     function animate() {
-      if (!ctx) return
+      if (!ctx || !canvas) return
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       particles.forEach((particle, i) => {
