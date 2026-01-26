@@ -1,0 +1,18 @@
+Place your logo file here!
+
+Recommended file names:
+- logo.png (recommended)
+- logo.svg (for vector graphics)
+- logo.webp (for optimized images)
+
+File should be:
+- Transparent background (PNG/SVG)
+- High resolution (at least 200px width)
+- Optimized for web use
+
+The logo will automatically appear in:
+- Header navigation
+- Footer
+- Admin panel
+
+If you don't have a logo yet, the website will show a gradient placeholder with "S".
