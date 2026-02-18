@@ -11,8 +11,8 @@ const mapContainerStyle = {
 }
 
 const defaultCenter = {
-  lat: 40.7128,
-  lng: -74.0060,
+  lat: 13.037854,
+  lng: 77.566152,
 }
 
 export default function MapSection() {
@@ -44,7 +44,7 @@ export default function MapSection() {
     return (
       <section className="h-96 bg-dark-surface">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184132239345!2d-74.00594168459399!3d40.71277597932678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a258c4c4b1b%3A0x8e8e8e8e8e8e8e8e!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5!2d77.566152!3d13.037854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzE2LjMiTiA3N8KwMzMnNTguMSJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin&q=6th+Cross+RMV+2nd+Stage+Puttaiah+Compound+Bangalore+560094"
           width="100%"
           height="100%"
           style={{ border: 0 }}

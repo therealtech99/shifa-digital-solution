@@ -22,8 +22,8 @@ const contactMethods = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    info: '123 Business Street, Tech City, TC 12345',
-    link: '#',
+    info: '6th Cross, RMV 2nd Stage, Puttaiah Compound, Bangalore 560094',
+    link: 'https://maps.google.com/?q=6th+Cross+RMV+2nd+Stage+Puttaiah+Compound+Bangalore+560094',
     color: 'from-cyan-500 to-neon-blue',
   },
   {

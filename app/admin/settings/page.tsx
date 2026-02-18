@@ -75,7 +75,7 @@ export default function SettingsPage() {
                 <label className="block text-white/80 mb-2">Phone</label>
                 <input
                   type="tel"
-                  defaultValue="+1 (234) 567-890"
+                  defaultValue="+91 9234578836"
                   className="w-full px-4 py-3 glass rounded-lg text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-neon-blue"
                 />
               </div>
@@ -83,7 +83,15 @@ export default function SettingsPage() {
                 <label className="block text-white/80 mb-2">Address</label>
                 <input
                   type="text"
-                  defaultValue="123 Business Street, Tech City, TC 12345"
+                  defaultValue="6th Cross, RMV 2nd Stage, Puttaiah Compound, Bangalore 560094"
+                  className="w-full px-4 py-3 glass rounded-lg text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-neon-blue"
+                />
+              </div>
+              <div className="md:col-span-2">
+                <label className="block text-white/80 mb-2">MSME Registration Number</label>
+                <input
+                  type="text"
+                  defaultValue="UDYAM-JH-08-0045200"
                   className="w-full px-4 py-3 glass rounded-lg text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-neon-blue"
                 />
               </div>

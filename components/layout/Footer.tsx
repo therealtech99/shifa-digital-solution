@@ -127,7 +127,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-neon-blue mt-1 flex-shrink-0" />
                 <span className="text-white/60">
-                  123 Business Street, Tech City, TC 12345
+                  6th Cross, RMV 2nd Stage, Puttaiah Compound,<br />
+                  Bangalore, Karnataka 560094, India
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -143,6 +144,25 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* MSME Registration Badge */}
+        <div className="border-t border-white/10 pt-6 mb-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+            <div className="flex items-center space-x-2 px-4 py-2 glass rounded-lg">
+              <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-xs">MSME</span>
+              </div>
+              <div>
+                <p className="text-white/80 text-xs font-medium">MSME Registered</p>
+                <p className="text-neon-blue text-xs font-mono">UDYAM-JH-08-0045200</p>
+              </div>
+            </div>
+            <div className="text-white/40 text-xs">|</div>
+            <p className="text-white/60 text-xs text-center">
+              Verified & Trusted Digital Solutions Provider
+            </p>
           </div>
         </div>
 
